@@ -24,6 +24,8 @@ Python 3.9 or higher is recommended.
 ```--keyboard``` - play via computer keyboard  
 ```--list``` - lists objects and data sources  
 ```--preview 67``` - previews single note mapped to specified number  
+```--midi``` - name of MIDI device if necessary
+```--volume 0.85``` - master volume
 
 ## Currently supported objects  
 GW150914 (black hole merger)  
