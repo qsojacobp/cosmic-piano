@@ -10,7 +10,18 @@
 **Windows:**
 Download and install portmidi directly via https://portmedia.sourceforge.net/
 
-### Python packages
+**Python packages:**
 ```python3 -m pip install -r requirements.txt```
 
 Python 3.9 or higher is recommended.
+
+## Usage
+```python cosmic-piano.py --ARGS``
+
+### Valid ARGS
+```--generate``` - build audio samples, required before anything can be played
+```--generate --duration n``` - builds sample of length n seconds
+```--play``` - play via MIDI device, will automatically detect connected device
+```--keyboard``` - play via computer keyboard
+```--list``` - lists objects and data sources
+```--preview 67``` - previews single note mapped to specified number
