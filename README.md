@@ -15,7 +15,7 @@ Download and install portmidi directly via https://portmedia.sourceforge.net/
 Python 3.9 or higher is recommended.
 
 ## Usage  
-```python cosmic-piano.py --ARGS``  
+```python cosmic-piano.py --ARGS```  
 
 ### Valid ARGS  
 ```--generate``` - build audio samples, required before anything can be played  
