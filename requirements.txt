@@ -1,0 +1,24 @@
+# core modules
+numpy
+scipy
+soundfile
+sounddevice
+pygame
+
+# for midi support
+mido
+python-rtmidi
+
+# LIGO data
+gwpy
+gwosc
+
+# stellar light curves
+lightkurve
+
+# galaxy spectra
+astroquery
+astropy
+
+# pulsars
+requests
